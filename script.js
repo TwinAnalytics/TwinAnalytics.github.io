@@ -1,10 +1,9 @@
 // ── TYPED.JS ─────────────────────────────────────────────────────────────────
 new Typed('#typed', {
   strings: [
-    'Data Engineer',
-    'Sports Analytics Builder',
-    'Pipeline Architect',
-    'Football Data Enthusiast',
+    'Data Analyst',
+    'Turning Data into Decisions',
+    'Sports Analyst',
   ],
   typeSpeed: 55,
   backSpeed: 30,
