@@ -213,6 +213,14 @@ a { color: inherit; text-decoration: none; }
 
 .hero-social-link--cv i { color: #e5534b; }
 
+.hero-social-link--text {
+  width: auto;
+  padding: 0 18px;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
 .hero-social-link--linkedin i { color: #0a66c2; }
 
 .hero-social-link--linkedin:hover {
