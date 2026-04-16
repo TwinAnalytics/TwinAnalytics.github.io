@@ -1,7 +1,7 @@
 // ── TYPED.JS ─────────────────────────────────────────────────────────────────
 new Typed('#typed', {
   strings: [
-    'Data Analyst',
+    'Data Scientist',
     'Turning Data into Decisions',
     'Sports Analyst',
   ],

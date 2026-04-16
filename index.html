@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Stefan Hofmann — Data Analyst</title>
+  <title>Stefan Hofmann — Data Scientist</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
@@ -16,7 +16,7 @@
       <div class="profile">
         <img src="ProfilePic_StefanHofmann.jpg" alt="Stefan Hofmann" class="avatar" />
         <h2 class="sidebar-name">Stefan Hofmann</h2>
-        <p class="sidebar-title">Data Analyst · Sports Analytics</p>
+        <p class="sidebar-title">Data Scientist · FMCG &amp; Sports Analytics</p>
       </div>
 
       <nav class="sidenav">
@@ -52,8 +52,9 @@
         <p class="hero-intro">
           I build data products that turn raw numbers into decisions. My background spans
           15 years of engineering across Europe, and I have spent the last few years going deep
-          into Python, SQL, and sports analytics. I love working on problems where the data
-          actually matters. Based in Barcelona.
+          into Python, SQL, machine learning, and analytics. I love working on problems where
+          the data actually matters — from FMCG pricing and marketing attribution to sports
+          analytics. Based in Barcelona.
         </p>
         <div class="hero-socials">
           <a href="https://github.com/TwinAnalytics" target="_blank" class="hero-social-link" title="GitHub">
@@ -79,17 +80,17 @@
       <div class="about-grid">
         <div class="about-text">
           <p>
-            Data Analyst with 15 years of engineering experience across Europe, now fully
+            Data Scientist with 15 years of engineering experience across Europe, now fully
             focused on building data products that are actually useful. I work across the
-            full stack: data collection, transformation, analysis, and visualisation.
+            full stack: statistical modelling, machine learning, data engineering, and
+            visualisation.
           </p>
           <p>
-            I enjoy working on problems where clean data and clear thinking make a real
-            difference, whether that is in sports, retail, operations, or any domain
-            where decisions should be driven by evidence. My personal project
-            <strong>PlayerScore</strong> is an example of what I build: a fully automated
-            analytics pipeline deployed as a live application, running end-to-end without
-            manual intervention.
+            Recent projects span FMCG analytics — price elasticity modelling, marketing mix
+            attribution, and customer segmentation — as well as fully automated sports
+            analytics pipelines. I enjoy working on problems where clean data and clear
+            thinking make a real difference, and where the output lands in front of a
+            decision-maker rather than a drawer.
           </p>
           <p>
             Based in Barcelona. Fluent in German, English, and Spanish.
@@ -98,12 +99,13 @@
         <div class="about-tags">
           <span class="tag">Python</span>
           <span class="tag">SQL</span>
+          <span class="tag">Machine Learning</span>
+          <span class="tag">Price Elasticity</span>
+          <span class="tag">Marketing Mix Modelling</span>
           <span class="tag">ETL Pipelines</span>
           <span class="tag">CI/CD</span>
           <span class="tag">Sports Analytics</span>
-          <span class="tag">StatsBomb</span>
           <span class="tag">Streamlit</span>
-          <span class="tag">Wyscout</span>
           <span class="tag">Barcelona</span>
           <span class="tag">🇩🇪 🇬🇧 🇪🇸</span>
         </div>
@@ -116,9 +118,28 @@
       <div class="projects-grid">
 
         <div class="project-card featured">
-          <img src="img_playerscore.png" alt="PlayerScore preview" class="project-img" />
+          <img src="img_nestle_analytics.png" alt="FMCG Analytics Dashboard preview" class="project-img" />
           <div class="project-header">
             <span class="project-tag">Featured</span>
+            <div class="project-links">
+              <a href="https://nestle-analytics.streamlit.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+              <a href="https://github.com/TwinAnalytics/nestle-analytics-dashboard" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>FMCG Analytics Dashboard</h3>
+          <p>End-to-end data science project covering price elasticity modelling, marketing mix
+            attribution (MMM), customer segmentation, and A/B experimentation across 5 European
+            markets and 5 product categories. Includes a 6-page interactive Streamlit dashboard
+            with a live scenario simulator and budget optimiser.</p>
+          <div class="project-stack">
+            <span>Python</span><span>scikit-learn</span><span>statsmodels</span>
+            <span>SQL</span><span>Streamlit</span><span>Plotly</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="img_playerscore.png" alt="PlayerScore preview" class="project-img" />
+          <div class="project-header">
             <div class="project-links">
               <a href="https://player-score.streamlit.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
               <a href="https://github.com/TwinAnalytics" target="_blank"><i class="fab fa-github"></i></a>
@@ -148,21 +169,6 @@
           <div class="project-stack">
             <span>Python</span><span>StatsBomb API</span>
             <span>Pandas</span><span>Matplotlib</span><span>Streamlit</span>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <img src="img_customershopping.png" alt="Customer Shopping Analysis preview" class="project-img" />
-          <div class="project-header">
-            <div class="project-links"></div>
-          </div>
-          <h3>Customer Shopping Behaviour Analysis</h3>
-          <p>Retail analytics pipeline from raw data to business insights. Cleaned and segmented
-            a 3,900-row dataset, wrote 10 business SQL queries with CTEs and window functions,
-            and built a Tableau dashboard showing revenue by segment and customer loyalty patterns.</p>
-          <div class="project-stack">
-            <span>Python</span><span>MySQL</span>
-            <span>SQL</span><span>Tableau</span>
           </div>
         </div>
 
@@ -241,6 +247,14 @@
           <h4><i class="fas fa-code"></i> Languages</h4>
           <div class="skill-tags">
             <span>Python</span><span>SQL</span><span>R</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h4><i class="fas fa-brain"></i> Machine Learning</h4>
+          <div class="skill-tags">
+            <span>scikit-learn</span><span>statsmodels</span><span>scipy</span>
+            <span>Price Elasticity</span><span>MMM</span><span>Segmentation</span>
           </div>
         </div>
 
@@ -328,7 +342,7 @@
     <!-- CONTACT -->
     <section class="section" id="contact">
       <h2 class="section-title">Contact</h2>
-      <p class="contact-intro">Open to new opportunities in data engineering and sports analytics. Let's talk.</p>
+      <p class="contact-intro">Open to new opportunities in data science and analytics. Let's talk.</p>
       <div class="contact-links">
         <a href="mailto:stefan.hofmann.es@gmail.com" class="contact-item">
           <i class="fas fa-envelope"></i>
